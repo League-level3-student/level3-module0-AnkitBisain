@@ -16,9 +16,8 @@ public class _00_1D_Array_Methods {
 	public static double averageIntArray(int[] values) {
 		double x = 0;
 		for(int i=0; i < values.length; i++) {
-			x += values[i];
+			x += (double) values[i]/values.length;
 		}
-		x = x/values.length;
 		return x;
 	}
 	
